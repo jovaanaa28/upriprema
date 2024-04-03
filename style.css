@@ -1,0 +1,22 @@
+#prvi {
+    padding: 10px; /* Dodatni prostor unutar okvira */
+}
+
+#drugi {
+    padding: 10px; /* Dodatni prostor unutar okvira */
+}
+
+#prvi, #drugi {
+    width: 50%; /* Postavljamo da svaki div zauzima 50% širine ekrana */
+    float: left; /* Postavljamo da se elementi postavljaju jedan pored drugog */
+    box-sizing: border-box; /* Da se širina računa uključujući okvir */
+}
+
+#submit{
+    border-color: blue;
+    background: blue;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
